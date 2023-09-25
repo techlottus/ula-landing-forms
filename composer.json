@@ -1,0 +1,10 @@
+{
+    "name": "ula/landings",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ula\\Landings\\": "src/"
+        }
+    },
+    "require": {}
+}
