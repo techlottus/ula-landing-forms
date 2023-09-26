@@ -1,12 +1,9 @@
-version: "2"
-
 services:
-
-  apache-app:
+  web:
     build:
       context: .
       dockerfile: ./Dockerfile
-    environment:
-      - MYSQL_ADMIN_PASS=password
-    ports:
-      - "80:80"
+    ports: 
+      - '80:80'
+    volumes:
+      - ./app:/app
