@@ -1,3 +1,4 @@
 FROM php:latest
-
-CMD [ "php", "-S", "0.0.0.0:1001", "./oferta.php" ]
+COPY ./app /app
+WORKDIR /app
+CMD [ "php", "-S", "0.0.0.0:1001", "./UANE/oferta.php" ]
