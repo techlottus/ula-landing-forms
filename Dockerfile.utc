@@ -1,0 +1,6 @@
+FROM php:latest
+COPY ./app/UTC /
+
+
+
+CMD [ "php", "-S", "0.0.0.0:1002", "./connect.php" ]
