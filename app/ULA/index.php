@@ -2,7 +2,7 @@
 
 
 extract($_POST);
-// if($tk == "ptk" && $_POST){
+if($tk == "ptk" && $_POST){
 	function get_sf_auth_data() {
 		
 		header('Access-Control-Allow-Origin: *');
@@ -76,7 +76,7 @@ extract($_POST);
 	
 	echo json_encode($datos2);
 	
-// }else{
-// 	echo "acceso denegado";
-// }
+}else{
+	echo "acceso denegado";
+}
 	?>
