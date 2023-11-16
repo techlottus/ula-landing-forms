@@ -1,5 +1,5 @@
 FROM php:latest
-COPY ./app /
+COPY ./app/ULA /
 
 
 
