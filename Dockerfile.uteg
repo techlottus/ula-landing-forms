@@ -1,6 +1,4 @@
 FROM php:latest
-COPY ./app /
+COPY ./app/UTEG /
 
-
-
-CMD [ "php", "-S", "0.0.0.0:1003", "./.php" ]
+CMD [ "php", "-S", "0.0.0.0:1003", "./index.php" ]
