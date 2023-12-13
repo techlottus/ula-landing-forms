@@ -1,7 +1,7 @@
 <?php
 
-// header('Access-Control-Allow-Origin: *');
-// header('content-type: application/json; charset=utf-8');
+header('Access-Control-Allow-Origin: *');
+header('content-type: application/json; charset=utf-8');
 // header('Access-Control-Allow-Methods: "GET, PUT, POST, DELETE, HEAD, OPTIONS"');
 
 // add_action( 'rest_api_init', function () {
