@@ -62,7 +62,7 @@ function get_programa_online_presencial( ) {
         $context  = stream_context_create($options);
         $offering =  file_get_contents($urlCourseOffering, false, $context);
         $offeringUTEG =  file_get_contents($urlCourseOfferingUTEG, false, $context);
-        $offeringUAUNE =  file_get_contents($urlCourseOfferingUANE, false, $context);
+        $offeringUANE =  file_get_contents($urlCourseOfferingUANE, false, $context);
         if($offering === false && $offeringUTEG  === false) {
             // ERROR MSG
             // $e = error_get_last();
@@ -78,5 +78,5 @@ function get_programa_online_presencial( ) {
         }
     }
 }
-get_programa_online_presencial( )
+get_programa_online_presencial()
 ?> 
