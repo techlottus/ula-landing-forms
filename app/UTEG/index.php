@@ -25,7 +25,7 @@ function get_programa_online_presencial( ) {
     $clientId          = '3MVG9LBJLApeX_PAaOZZnyLX4MdUEQQ3Uvh67OB.CUsoBo5VPlhI7Y92gdagNcjsXblunkDI18KLBA6nY2tL7';
     $clientSecret      = '011D2286679B186BFB5928E679F069E9E9F81ACDFCE7CE3F713D65CD713B8309';
     $username          = 'uteg_integracion@lottuseducation.com';
-    $password          = 'CRMLottusUTEG2022*bNLHlVttBLweSxnGqvbWFx3f1';
+    $password          = 'CRMUTEGLottus@2025*BOxue85SkziNQqjUq1A2';
 
     // Access request
     $content = [
