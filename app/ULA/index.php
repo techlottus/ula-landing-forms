@@ -30,7 +30,7 @@ if($tk == "ptk" && $_POST){
 		curl_setopt($curl, CURLOPT_POSTFIELDS, $post_data);
 
 		$response = curl_exec($curl);
-		curl_close($curl);
+		unset($curl);
 
 		
 		$sf_access_data = json_decode($response, true);
