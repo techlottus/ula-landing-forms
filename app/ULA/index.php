@@ -58,7 +58,7 @@ if($tk == "ptk" && $_POST){
 	curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
 	$json_response = curl_exec($curl);
-	curl_close($curl);
+	unset($curl);
     
 	$datos = array();
 	$datos2 = array();
