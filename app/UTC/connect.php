@@ -79,6 +79,6 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 $json_response = curl_exec($curl);
 unset($curl);
 
-echo json_encode($json_response, \JSON_UNESCAPED_UNICODE);
+echo $json_response;
 
 ?>
