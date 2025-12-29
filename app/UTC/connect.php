@@ -80,6 +80,6 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 $json_response = curl_exec($curl);
 curl_close($curl);
 
-echo gzencode($json_response);
+echo json_encode($json_response);
 
 ?>
