@@ -77,7 +77,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
 $json_response = curl_exec($curl);
-curl_close($curl);
+unset($curl);
 
 echo json_encode($json_response);
 
