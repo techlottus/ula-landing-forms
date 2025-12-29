@@ -12,7 +12,7 @@ function get_sf_auth_data()
     "client_secret" =>
       "011D2286679B186BFB5928E679F069E9E9F81ACDFCE7CE3F713D65CD713B8309",
     "username" => "utc_integracion@lottuseducation.com",
-    "password" => "CRMLottus2025*dtDDUmbgIFlgdjlJuG7qyRZU",
+    "password" => "UTC2025*LottusIrrn4gCKK5CKpbzKl1HR2hsz",
   ]; /*
 		dev
 	    //$post_data = array(
