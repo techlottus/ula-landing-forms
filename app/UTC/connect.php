@@ -1,7 +1,7 @@
 <?php
-
-header("Content-Type: application/json");
+header("Content-Type: application/json; charset=utf-8");
 header("Access-Control-Allow-Origin: *");
+
 function get_sf_auth_data()
 {
   $post_data = [
@@ -79,6 +79,6 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 $json_response = curl_exec($curl);
 unset($curl);
 
-echo gzencode($json_response);
+echo json_encode($json_response, \JSON_UNESCAPED_UNICODE);
 
 ?>
