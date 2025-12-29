@@ -1,10 +1,9 @@
 <?php
 
-header("Content-Encoding: gzip");
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json");
 function get_sf_auth_data()
 {
+  header("Access-Control-Allow-Origin: *");
+  header("Content-Type: application/json");
   $post_data = [
     "grant_type" => "password",
     "client_id" =>
@@ -42,7 +41,7 @@ function get_sf_auth_data()
   curl_setopt($curl, CURLOPT_POSTFIELDS, $post_data);
 
   $response = curl_exec($curl);
-  curl_close($curl);
+  unset($curl);
 
   // Retrieve and parse response body
   $sf_access_data = json_decode($response, true);
