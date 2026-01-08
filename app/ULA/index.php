@@ -11,7 +11,7 @@ if ($tk == "ptk" && $_POST) {
       "client_id" =>
         "3MVG9LBJLApeX_PAaOZZnyLX4MdUEQQ3Uvh67OB.CUsoBo5VPlhI7Y92gdagNcjsXblunkDI18KLBA6nY2tL7",
       "client_secret" =>
-        "011D2286679B186BFB5928E679F069E9E9F81ACDFCE7CE3F713D65CD713B8309",
+        "3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9",
       "username" => "ula_integracion@lottuseducation.com",
       "password" => "CRMLottus2025*1I7sVHsbT7CCORWy3CK5uVxD",
     ];
