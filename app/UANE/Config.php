@@ -9,7 +9,7 @@ define('DB_NAME', '');
 
 //referencia generado con MD5(uniqueid(<some_string>, true))
 define('API_KEY','7bbf3808-ab43-4fe8-b1d6-83844b261f8f');
-define('CLIENT_ID','3MVG9LBJLApeX_PAaOZZnyLX4MdUEQQ3Uvh67OB.CUsoBo5VPlhI7Y92gdagNcjsXblunkDI18KLBA6nY2tL7');
+define('CLIENT_ID','3MVG9LBJLApeX_PAaOZZnyLX4MUk3xLx9_tc9QDO9xB_g7thRcTG7sw3HPTZUcSWTxKyxB03VLHic5LTRYk5J');
 define('CLIENT_SECRET','3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9');
 define('USER_NAME','uane_integracion@lottuseducation.com');
 define('PASS','CRMLottusUANE2022*li2s5bFHw7pFNhdyrrm1J8JG');
