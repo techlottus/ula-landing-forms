@@ -13,7 +13,7 @@ if ($tk == "ptk" && $_POST) {
       "client_secret" =>
         "3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9",
       "username" => "ula_integracion@lottuseducation.com",
-      "password" => "CRMLottus2025*1I7sVHsbT7CCORWy3CK5uVxD",
+      "password" => "Lottus@CRM2025ULADqaWBga3iHQeBuO3MBRlO0Fg",
     ];
 
     $headers = [
