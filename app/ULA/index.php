@@ -9,11 +9,11 @@ if ($tk == "ptk" && $_POST) {
     $post_data = [
       "grant_type" => "password",
       "client_id" =>
-        "3MVG9LBJLApeX_PAaOZZnyLX4MdUEQQ3Uvh67OB.CUsoBo5VPlhI7Y92gdagNcjsXblunkDI18KLBA6nY2tL7",
+        "3MVG9LBJLApeX_PAaOZZnyLX4MUk3xLx9_tc9QDO9xB_g7thRcTG7sw3HPTZUcSWTxKyxB03VLHic5LTRYk5J",
       "client_secret" =>
-        "011D2286679B186BFB5928E679F069E9E9F81ACDFCE7CE3F713D65CD713B8309",
+        "3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9",
       "username" => "ula_integracion@lottuseducation.com",
-      "password" => "CRMLottus2025*1I7sVHsbT7CCORWy3CK5uVxD",
+      "password" => "Lottus@CRM2025ULADqaWBga3iHQeBuO3MBRlO0Fg",
     ];
 
     $headers = [

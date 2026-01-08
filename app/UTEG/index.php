@@ -17,15 +17,15 @@ function get_programa_online_presencial( ) {
  * Global vars
  * TODO: Move to a safe route
  */
-    $urlAccessToken    = 'https://lottus.my.salesforce.com/services/oauth2/token?client_id=3MVG9LBJLApeX_PAaOZZnyLX4MdUEQQ3Uvh67OB.CUsoBo5VPlhI7Y92gdagNcjsXblunkDI18KLBA6nY2tL7&client_secret=011D2286679B186BFB5928E679F069E9E9F81ACDFCE7CE3F713D65CD713B8309&username=uteg_integracion@lottuseducation.com&password=UTEGLottus@2025*8wD43kfW37dzrU77XJ10NUjEi&grant_type=password';
+    $urlAccessToken    = 'https://lottus.my.salesforce.com/services/oauth2/token?client_id=3MVG9LBJLApeX_PAaOZZnyLX4MUk3xLx9_tc9QDO9xB_g7thRcTG7sw3HPTZUcSWTxKyxB03VLHic5LTRYk5J&client_secret=3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9&username=uteg_integracion@lottuseducation.com&password=Lottus@CRM2025UTEG1S3x0ZmhRyyyoYjGCEidWPdq&grant_type=password';
     $urlCourseOffering = 'https://lottus.my.salesforce.com/services/apexrest/hed__Course_Offering__c?linea=ULA';
     $urlCourseOfferingUTEG = 'https://lottus.my.salesforce.com/services/apexrest/hed__Course_Offering__c?linea=UTEG';
     $urlCourseOfferingUANE = 'https://lottus.my.salesforce.com/services/apexrest/hed__Course_Offering__c?linea=UANE';
     $grantType         = 'password';
-    $clientId          = '3MVG9LBJLApeX_PAaOZZnyLX4MdUEQQ3Uvh67OB.CUsoBo5VPlhI7Y92gdagNcjsXblunkDI18KLBA6nY2tL7';
-    $clientSecret      = '011D2286679B186BFB5928E679F069E9E9F81ACDFCE7CE3F713D65CD713B8309';
+    $clientId          = '3MVG9LBJLApeX_PAaOZZnyLX4MUk3xLx9_tc9QDO9xB_g7thRcTG7sw3HPTZUcSWTxKyxB03VLHic5LTRYk5J';
+    $clientSecret      = '3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9';
     $username          = 'uteg_integracion@lottuseducation.com';
-    $password          = 'UTEGLottus@2025*8wD43kfW37dzrU77XJ10NUjEi';
+    $password          = 'Lottus@CRM2025UTEG1S3x0ZmhRyyyoYjGCEidWPdq';
 
     // Access request
     $content = [
