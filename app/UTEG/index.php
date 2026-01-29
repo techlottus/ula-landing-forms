@@ -19,7 +19,7 @@ function get_programa_online_presencial()
    * TODO: Move to a safe route
    */
   $urlAccessToken =
-    "https://lottus.my.salesforce.com/services/oauth2/token?client_id=3MVG9LBJLApeX_PAaOZZnyLX4MUk3xLx9_tc9QDO9xB_g7thRcTG7sw3HPTZUcSWTxKyxB03VLHic5LTRYk5J&client_secret=3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9&username=uteg_integracion@lottuseducation.com&password=Lottus@CRM2025UTEG1S3x0ZmhRyyyoYjGCEidWPdq&grant_type=password";
+    "https://lottus.my.salesforce.com/services/oauth2/token?client_id=3MVG9LBJLApeX_PAaOZZnyLX4MUk3xLx9_tc9QDO9xB_g7thRcTG7sw3HPTZUcSWTxKyxB03VLHic5LTRYk5J&client_secret=3A9F43D6F2D7C7D67E257BAED415F90A26476EC1E5A6A76BA47EDF3BD9159DB9&username=uteg_integracion@lottuseducation.com&password=cxXTl9EQZ9r9gTskW92rTg0SkqlXZVSOQq5C&grant_type=password";
   $urlCourseOffering =
     "https://lottus.my.salesforce.com/services/apexrest/hed__Course_Offering__c?linea=ULA";
   $urlCourseOfferingUTEG =
